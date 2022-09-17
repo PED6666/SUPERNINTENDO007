@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO SITE</title>
+</head>
+<style>
+body{font-family:Arial,Helvetica,sans-serif}
+.content{display:flex;justify-content:center}
+.contato{ width:100%;max-width:500px;}
+.form{display:flex;flex-direction:column}
+.field{padding:10px;margin-bottom :15px;border:1px solid rgb(253, 251, 251);border-radius: spx;font-family:arial,Helvetica,sans-serif;font-size:30px}
+textarea{height:150px;}
+
+
+
+
+
+
+</style>
+<body>
+<SECTION CLASS="CONTENT"></SECTION>
+<DIV CLASS="CONTATO">
+<H3>FORMULÁRIO DE CONTATO</H3>
+<FORM CLASS="FORM" METHOD="POST" ACTION="./email.php">
+<input class="field" Name="name" placeholder="nome">
+<input class="field" Name="email" placeholder="E-mail"<br>
+<textarea class="field" name="message" placeholder="digite sua mensagem aqui."<br></textarea>
+<input type="submit" value="enviar">
+<h4>selecione uma duvida que voce esta encontrando</h4>
+<form> 
+<label> dúvidas </label><br>
+<select>
+<option> esta dificil acessar a aba legado do super nintendo</option>
+<option> NÃO esta sendo objetivo o site</option>
+<option>outras dúvidas</option>
+</select>
+<BR>
+    <fieldset>
+<LEGEND> Qual o seu gênero?</LEGEND>
+<input type="radio" name="sexo" value="MASCULINO"> <LABEL> MASCULINO</LABEL>
+<input type="radio" name="sexo" value="FEMININO"<br><LABEL> FEMININO</LABEL>
+<INPUT TYPE="SUBMIT" VALUE="ENVIAR">
+<INPUT TYPE="RESET" VALUE="LIMPAR">
+    </FIELDSET>
+</form>
+
+
+</section>
+</FORM>
+</DIV>
+</body>
+</html>
